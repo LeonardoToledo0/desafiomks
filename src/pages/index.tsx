@@ -1,14 +1,10 @@
 import React from "react";
-import Header from "../components/Header";
-import ProducCard from "../components/ProducCard";
-import Footer from "../components/Footer";
+import Home from "./pageHome";
 
 const Index: React.FC = () => {
   return (
     <>
-      <Header />
-      <ProducCard />
-      <Footer />
+      <Home />
     </>
   );
 };
